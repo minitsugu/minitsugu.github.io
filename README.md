@@ -20,7 +20,7 @@ If you're serious about Windows scripting, learn **Powershell** immediately.
 
 However, **CMD.exe** is always available and has a low startup time.\
 The **Batch files** are double-clickable, familiar to many non-programmers and therefore an effective mechanism to distribute code.\
-It's also the best solution to mimic shell aliases.
+It's also the best solution to mimic shell aliases (and make CMD.exe tolerable).
 
 ---
 
