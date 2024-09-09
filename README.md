@@ -19,24 +19,33 @@ With millions of installed copies, it's a proven and mature solution, unless you
 
 [UnxUtils](https://en.wikipedia.org/wiki/UnxUtils) (6MB) ports of many **GNU utilities**, built as standalone executables (unmaintained since 2003).
 
-If you just want to run **Bash on Windows** (now!), then installs [Git for Windows](https://gitforwindows.org) (380MB). It comes with **Git Bash**, over 200 utilities, vim and perl.
+If you just want to run Bash on Windows (now!), then installs [Git for Windows](https://gitforwindows.org) (380MB). It comes with **Git Bash**, over 200 utilities, vim and perl.
 
 ---
 
-The **most useful shell command** is `cd -` (change to previous directory).
+### Cross-platform scripting languages and shells ###
+
+[Perl](https://www.perl.org) is reliable and available everywhere. Actively developped with a very strong backward-compatibility policy. The code you write today will probably still run in ten (or twenty) years[^2].
+
+[Nushell](https://www.nushell.sh) is a modern, **cross-platform shell** that looks promising.
 
 ---
+
+
+
+### Windows ###
 
 **Windows is Windows**. It's not Posix compliant. Accept it.
 
+**CMD.exe** does not behave like a real terminal or Unix shell, has no globbing (shell expansion) and quoting is a nightmare. If you're serious about Windows scripting, learn **Powershell** immediately.
+
+However, **CMD.exe** is always available and has a low startup time. The **Batch files** are double-clickable, familiar to many non-programmers and therefore an effective mechanism to distribute code. Batches files are also the best solution to mimic shell aliases (and make CMD.exe tolerable).
+
 ---
 
-**CMD.exe** does not behave like a real terminal or Unix shell, has no globbing (shell expansion) and quoting is a nightmare.\
-If you're serious about Windows scripting, learn **Powershell** immediately.
+### Unix shell tips ###
 
-However, **CMD.exe** is always available and has a low startup time.\
-The **Batch files** are double-clickable, familiar to many non-programmers and therefore an effective mechanism to distribute code.\
-It's also the best solution to mimic shell aliases (and make CMD.exe tolerable).
+The **most useful shell command** is `cd -` (change to previous directory)[^1].
 
 ---
 
@@ -44,9 +53,9 @@ For deduplicated, locally encrypted, **remote backup** check [BorgBackup](https:
 
 ---
 
-[Nushell](https://www.nushell.sh/) is a modern, **cross-platform shell** that looks promising.
+Robin Bowes [flac2mp3](https://github.com/robinbowes/flac2mp3) script is the best around for collection of files. Defaults to VBR v2, just needs `perl`, `flac` and `lame`.
 
 ---
 
-Robin Bowes [flac2mp3](https://github.com/robinbowes/flac2mp3) script is the best around for collection of files. Defaults to VBR v2, just needs `perl`, `flac` and `lame`.
-
+[^1]: No, there's no way to make it work in CMD.exe.
+[^2]: As of 2024.
