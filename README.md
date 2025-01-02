@@ -40,7 +40,7 @@ However, `CMD.exe` is always available and has a low startup time. **Batch files
 
 - If you're serious about **Windows scripting**, learn `Powershell` immediately.
 - If you want a **terminal**, have a look at [Windows Terminal](https://en.wikipedia.org/wiki/Windows_Terminal).
-- If you want a **lightweight shell**, I recommend the **Almquist shell** `ash` from [busybox-w32](https://frippery.org/busybox).
+- If you want a **lightweight Unix shell**, I recommend the **Almquist shell** `ash` from [busybox-w32](https://frippery.org/busybox).
 - If you want **bash on Windows**, use **Git Bash** from [Git for Windows](https://gitforwindows.org).
 
 ---
