@@ -9,7 +9,7 @@ This is a collection of tips for computer workers who need decent cross-platform
 ### Collections of unix tools ###
 
 [Busybox](https://www.busybox.net) _aims to be the smallest and simplest correct implementation of the_ ___standard Linux command line tools___, packaged as a single executable.
-With millions of installed copies, it's a proven and mature solution, unless you need special command line options. A subset has been ported to **Windows** as [busybox-w32](https://frippery.org/busybox) (500KB), which is also actively maintained and regularly synchronised with upstream. As a bonus, the **Almquist shell** (ash) is included.
+With millions of installed copies, it's a proven and mature solution, unless you need special command line options. A subset has been ported to **Windows** as [busybox-w32](https://frippery.org/busybox) (500KB), which is also actively maintained and regularly synchronised with upstream. As a bonus, the **Almquist shell** `ash` is included.
 
 [uutils](https://uutils.github.io) _aims to be a drop-in replacement for the_ ___GNU utils___, but modernized, reimplemented in Rust and working on _as many platforms as possible_. 
 
@@ -19,7 +19,7 @@ With millions of installed copies, it's a proven and mature solution, unless you
 
 [UnxUtils](https://en.wikipedia.org/wiki/UnxUtils) (6MB) ports of many **GNU utilities**, built as standalone executables (unmaintained since 2003).
 
-If you just want to run Bash on Windows (now!), then installs [Git for Windows](https://gitforwindows.org) (380MB). It comes with **Git Bash**, over 200 utilities, vim and perl.
+If you just want to run Bash on Windows (now!), then installs [Git for Windows](https://gitforwindows.org) (380MB). It comes with **Git Bash**, over 200 utilities, `vim` and `perl`.
 
 ---
 
@@ -37,9 +37,11 @@ If you just want to run Bash on Windows (now!), then installs [Git for Windows](
 
 **Windows is Windows**. It's not Posix compliant. Accept it.
 
-**CMD.exe** does not behave like a real terminal or Unix shell, has no globbing (shell expansion) and quoting is a nightmare. If you're serious about Windows scripting, learn **Powershell** immediately.
+`CMD.exe` is neither a terminal emulator nor a Unix shell. Beware that it doesn't do globbing (expansion). Quoting and escaping characters are a nightmare. One-liners won't work or - worse - they will fail in some cases.
 
-However, **CMD.exe** is always available and has a low startup time. The **Batch files** are double-clickable, familiar to many non-programmers and therefore an effective mechanism to distribute code. Batches files are also the best solution to mimic shell aliases (and make CMD.exe tolerable).
+If you're serious about Windows scripting, learn `Powershell` immediately. If you want a terminal, have a look at [Windows Terminal](https://en.wikipedia.org/wiki/Windows_Terminal).
+
+However, `CMD.exe` is always available and has a low startup time. The **Batch files** are double-clickable, familiar to many non-programmers and therefore an effective mechanism to distribute code. Batches files are also the best solution to mimic shell aliases (and make `CMD.exe` tolerable).
 
 ---
 
