@@ -30,20 +30,18 @@ If you just want to run Bash on Windows (now!), then installs [Git for Windows](
 
 ---
 
-
-
 ### Windows ###
 
 **Windows is Windows**. It's not Posix compliant. Accept it.
 
 `CMD.exe` is neither a terminal emulator nor a Unix shell. Beware that it doesn't do globbing (expansion). Quoting and escaping characters are a nightmare. One-liners won't work or - worse - they will fail in some cases.
 
-- If you're serious about Windows scripting, learn `Powershell` immediately.
-- If you want a terminal, have a look at [Windows Terminal](https://en.wikipedia.org/wiki/Windows_Terminal).
-- If you want a lightweight shell, I recommend the **Almquist shell** `ash` from [busybox-w32](https://frippery.org/busybox).
-- If you want **bash on Windows**, use **Git Bash** from [Git for Windows](https://gitforwindows.org).
-
 However, `CMD.exe` is always available and has a low startup time. **Batch files** are double-clickable, familiar to many non-programmers and therefore an effective mechanism to distribute code. They are also the best solution to mimic shell aliases (and make `CMD.exe` tolerable).
+
+- If you're serious about **Windows scripting**, learn `Powershell` immediately.
+- If you want a **terminal**, have a look at [Windows Terminal](https://en.wikipedia.org/wiki/Windows_Terminal).
+- If you want a **lightweight shell**, I recommend the **Almquist shell** `ash` from [busybox-w32](https://frippery.org/busybox).
+- If you want **bash on Windows**, use **Git Bash** from [Git for Windows](https://gitforwindows.org).
 
 ---
 
