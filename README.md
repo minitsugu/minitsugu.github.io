@@ -45,6 +45,12 @@ However, `CMD.exe` is always available and has a low startup time. **Batch files
 
 ---
 
+### Vim colors ###
+
+Final word and reminder for myself : the color scheme [noctu.vim](https://github.com/noahfrederick/vim-noctu) uses only the 16 ANSI colors configured in the terminal emulator, so you get the same consistent colors for all programs (locally or remotely executed). [Source](https://jeffkreeftmeijer.com/vim-16-color/)
+
+---
+
 ### Unix shell tips ###
 
 The **most useful shell command** is `cd -` (change to previous directory)[^1].
