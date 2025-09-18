@@ -18,13 +18,13 @@ This is a collection of tips for computer workers who need decent cross-platform
 
 [UnxUtils](https://en.wikipedia.org/wiki/UnxUtils) (6MB) ports of many **GNU utilities**, built as standalone executables (unmaintained since 2003).
 
-If you just want to run Bash on Windows (now!), then installs [Git for Windows](https://gitforwindows.org) (380MB). It comes with **Git Bash**, over 200 utilities, `vim` and `perl`.
+If you just want to run **Bash on Windows** (now!), then installs [Git for Windows](https://gitforwindows.org) (380MB). It comes with **Git Bash**, over 200 utilities, `vim` and `perl`.
 
 ---
 
 ### Cross-platform scripting languages and shells ###
 
-[Perl](https://www.perl.org) is reliable and available everywhere. Actively developped with a very strong backward-compatibility policy. The code you write today will probably still run in ten (or twenty) years[^2].
+[Perl](https://www.perl.org) is reliable, available everywhere and actively developped with an official backward-compatibility policy[^1]. The code you write today will probably still run in ten (or twenty) years. A portable **Perl for Windows** even exists, thanks to [Strawberry Perl](https://strawberryperl.com).
 
 [Nushell](https://www.nushell.sh) is a modern, **cross-platform shell** that looks promising.
 
@@ -38,10 +38,12 @@ If you just want to run Bash on Windows (now!), then installs [Git for Windows](
 
 However, `CMD.exe` is always available and has a low startup time. **Batch files** are double-clickable, familiar to many non-programmers and therefore an effective mechanism to distribute code. They are also the best solution to mimic shell aliases (and make `CMD.exe` tolerable).
 
-- If you're serious about **Windows scripting**, learn `Powershell` immediately.
-- If you want a **terminal**, have a look at [Windows Terminal](https://en.wikipedia.org/wiki/Windows_Terminal).
+- If you want a **scripting** for system administration, learn `Powershell`. Don't use it for anything else.
+- If you want **Bash on Windows**, use **Git Bash** from [Git for Windows](https://gitforwindows.org).
 - If you want a **lightweight Unix shell**, I recommend the **Almquist shell** `ash` from [busybox-w32](https://frippery.org/busybox).
-- If you want **bash on Windows**, use **Git Bash** from [Git for Windows](https://gitforwindows.org).
+- If you want a **terminal**, have a look at [Windows Terminal](https://en.wikipedia.org/wiki/Windows_Terminal).
+
+
 
 ---
 
@@ -53,7 +55,7 @@ Final word and reminder for myself : the color scheme [noctu.vim](https://github
 
 ### Unix shell tips ###
 
-The **most useful shell command** is `cd -` (change to previous directory)[^1].
+The **most useful shell command** is `cd -` (change to previous directory)[^2].
 
 ---
 
@@ -65,5 +67,6 @@ Robin Bowes [flac2mp3](https://github.com/robinbowes/flac2mp3) script is the bes
 
 ---
 
-[^1]: No, there's no way to make it work in CMD.exe.
-[^2]: As of 2024.
+[^1]: <https://perldoc.perl.org/perlpolicy#BACKWARD-COMPATIBILITY-AND-DEPRECATION>
+[^2]: No, there's no way to make it work in CMD.exe.
+
